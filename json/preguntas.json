@@ -1,0 +1,19 @@
+{
+   "pregunta": [
+     {
+       "tipus": "text",
+       "titol": "Quin és el color del cel?",
+       "resposta": "blau"
+     },
+     {
+       "tipus": "select",
+       "titol": "Tria l'opció vàlida",
+       "opcio": [
+         "Aquesta no",
+         "Aquesta tampoc",
+         "Aquesta si"
+       ],
+       "resposta": "2"
+     }
+   ]
+}

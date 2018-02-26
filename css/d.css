@@ -1,0 +1,7 @@
+body,html{margin:0px}
+body{width:70%;padding-left:15%;padding-right:15%}
+body,input,select,label{font-size:2vw}
+h3{font-size:3vw}
+input,select{width:50%}
+input[type=checkbox]{width:5%;zoom:1.5}
+form{background-color:aliceblue;padding:3%}

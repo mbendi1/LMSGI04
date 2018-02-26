@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Prueba de nivel </title>
+	</head>
+
+<body>
+
+<a href="instrucciones.html" target="_blank" onClick="window.open(this.href, this.target, 'width=300,height=400'); return false;">Instrucciones</a>
+<h1>Prueba de nivel</h1>
+
+<form id='myform'>
+ 
+ <h3 id='tituloInput'></h3>
+ <input id='num' type='number'>
+ <br><br>
+ 
+ <h3 id='tituloSelect'></h3>
+ <select id='sel'>
+  <option selected value="-1">Selecciona una...</option>
+ </select>
+ <br><br>
+ 
+ <h3 id='tituloCheckbox'></h3>
+ <div id='checkboxDiv'></div>
+ <br><br>
+ 
+ <input type='submit' value='Corregir'>
+</form>
+
+ <div id='resultadosDiv'></div>
+ 
+<form name="examen" onSubmit="">
+                         <p> 1. 
+                                  You have to ___your cigarette _____ when you 
+                                  enter the non-smoking area. <br>
+
+                                  <br>
+                                  &nbsp;&nbsp; &nbsp; 
+                                  <input type="radio" name="respuesta1" value="mal">
+                                  let ... down</p>
+                                <p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;&nbsp; 
+                                  &nbsp; 
+                                  <input type="radio" name="respuesta1" value="bien">
+                                  put .... out </p>
+                                <p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp; 
+                                  <input type="radio" name="respuesta1" value="mal">
+
+                                  pull .... down<br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp; 
+                                  <input type="radio" name="respuesta1" value="mal">
+                                  give ... away<br>
+                                </p>
+
+<p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">20. 
+                                  My sister is very intelligent. Everybody ______ 
+                                  to her.<br>
+                                  <br>
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                  <input type="radio" name="respuesta20" value="bien">
+                                  &nbsp;looks up </p>
+                                <p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                  <input type="radio" name="respuesta20" value="mal">
+                                  &nbsp;looks after</p>
+
+                                <p style="word-spacing: 0; margin-top: 0; margin-bottom: 0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                  <input type="radio" name="respuesta20" value="mal">
+                                  &nbsp;looks in</p>
+                                <p style="word-spacing: 0; margin-top: 0; margin-bottom: 0"> 
+                                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+                                  <input type="radio" name="respuesta20" value="mal">
+                                  &nbsp;looks at &nbsp;</p>
+                              
+                          </form>
+                        <p> 
+                          <input type="submit" value="Corregir ejercicio" onClick="averiguarNota()" name="submit" >
+
+
+
+</body>
+
+
+</html>

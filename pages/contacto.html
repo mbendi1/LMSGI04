@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Formulario de contacto </title>
+	</head>
+
+<body>
+  <form action="data/action_page.php" method="get">
+	<fieldset>
+		<legend>Datos Personales:</legend>
+			Nombre:<input type="text" name="name" value="nombre"><br><br>
+			Primer Apellido:<input type="text" name="1er apellido" value=" "
+			Segundo Apellido:<input type="text" name="2o apellido" value=" "><br><br>
+			Dirección de correo:<input type="text" name="email" value=" @ "><br><br>
+			Nacionalidad:<input type="text" name="nacionalidad" value=" "><br><br>
+	</fieldset>		
+			
+	<fieldset>
+		<legend>Datos Generales:</legend><br>	
+						
+		Simulador favorito:<select name="simulador favorito">
+			<option value="SU-25 Frogfoot">SU-25 Frogfoot</option>
+			<option value="Mustang P-51D">Mustang P-51D</option>
+			<option value="Huey UH-1H">Huey UH-1H</option>
+			<option value="AV-8B Harrier">AV-8B Harrier</option>
+			<option value="Gazelle">Gazelle</option>
+			<option value="MI-8/MI-17 Hip">MI-8/MI-17 Hip</option>
+			<option value="F-18C Hornet">F-18C Hornet</option>
+			<option value="F-86 Sabre">F-86 Sabre</option>
+			<option value="MIG-21">MIG-21</option>
+			<option value="Mirage M-2000C">Mirage M-2000C</option>
+			<option value="Spitfire">Spitfire</option>
+			<option value="FW-190">FW-190</option>
+			<option value="BF-109">BF-109</option>
+		</select><br><br>
+	
+			
+		Simuladores que posees:<select id="Simuladores que posees" name="simuladores que posees" multiple>
+			<option value="SU-25 Frogfoot" selected>SU-25 Frogfoot</option>
+			<option value="Mustang P-51D">Mustang P-51D</option>
+			<option value="Huey UH-1H">Huey UH-1H</option>
+			<option value="AV-8B Harrier">AV-8B Harrier</option>
+			<option value="Gazelle">Gazelle</option>
+			<option value="MI-8/MI-17 Hip">MI-8/MI-17 Hip</option>
+			<option value="F-18C Hornet">F-18C Hornet</option>
+			<option value="F-86 Sabre">F-86 Sabre</option>
+			<option value="MIG-21">MIG-21</option>
+			<option value="Mirage M-2000C">Mirage M-2000C</option>
+			<option value="Spitfire">Spitfire</option>
+			<option value="FW-190">FW-190</option>
+			<option value="BF-109">BF-109</option>
+		</select><br><br>
+		
+		Tiempo dedicado:<br>
+		<input type="checkbox" id="r" value="-2horas">
+		<label for="r">Menos de dos horas a la semana</label><br/>
+		<input type="checkbox" id="g" value="-6horas">
+		<label for="g">Menos de seis horas a la semana</label><br/>
+		<input type="checkbox" id="b" value="+6horas">
+		<label for="b">Más de seis horas a la semana</label><br/>
+		
+		Conocimientos de vuelo:<br>
+		<input id="basico" type="radio" name="nivel" value="basico">
+		<label for="basico">Básico</label>
+		<input id="intermedio" type="radio" name="nivel" value="intermedio">
+		<label for="intermedio">Intermedio</label>
+		<input id="avanzado" type="radio" name="nivel" value="avanzado">
+		<label for="avanzado">Avanzado</label><br/><br>	
+		
+		Observaciones:<textarea>Escribe todo lo que nos quieras contar.....</textarea><br><br>
+	</fieldset>	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		<input type="submit" value="Submit">
+		
+	</form>
+
+</body>
+
+
+</html>
