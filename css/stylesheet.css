@@ -8,21 +8,12 @@ body {margin:0px;
 	width:70%;
 	padding-left:15%;
 	padding-right:15%;
-	font-size:2vw;
+	
 }
 
-input {font-size:2vw;
-	width:50%;
+input {width:50%;
 }
-select {font-size:2vw;
-	width:50%;
-}
-
-label {font-size:2vw;
-}
-
-h3 {
-	font-size:3vw
+select {width:50%;
 }
 
 input[type=checkbox]{width:5%;zoom:1.5}
@@ -34,7 +25,7 @@ form {background-color:aliceblue;
 
 contenido {
     font-family: "Segoe UI", sans-serif;
-    font-size:100%;
+    font-size:2vw;
 	width: 100%;
 	height: 100%;
 	margin: 0;
@@ -62,7 +53,7 @@ contenido {
     position: absolute;
     top: 0.5rem;
     right: 1rem;
-    font-size: 2rem;
+    font-size: 2vw;
     display: block;
     padding: 0;
     line-height: 1.5rem;
@@ -101,9 +92,13 @@ contenido {
 }
 
 h1 {
-    color:#f90;
-    font-size:180%;
-    font-weight:normal;
+    color: black;
+    font-size: 3vw;
+    font-weight: normal;
+}
+h3 {
+	color: black;
+	font-size:3vw;
 }
 
 #footer {
@@ -112,7 +107,7 @@ h1 {
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 90px;
   color: white;
   text-align: center;
   
