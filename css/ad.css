@@ -1,15 +1,14 @@
 body,html{margin:0px}
 body{width:70%;padding-left:15%;padding-right:15%;background-image: url(../img/bckgrd.png);}
-body,input,select,label{font-size:5vw;font-family:'Lobster';}
+body,input,select,label{font-size:3vw;font-family:'Lobster';}
 h3{font-size:5vw}
-input,select{width:70%}
+input,select{width:50%}
 input[type=checkbox]{width:5%;zoom:1.5}
 input[type=radio]{width:5%;zoom:1.5}
-form{font-size:5vw;background-color:silver;padding:3%;color:black;font-family:'Lobster';text-align: left;border-style:ridge;border-width: 5px;}
-
+form{font-size:1.75vw;background-color:silver;padding:3%;color:black;font-family:'Lobster';text-align: left;border-style:ridge;border-width: 5px;}
 #logo{
-	width: 30%;
-	height: 30%;
+	width: 15%;
+	height: 15%;
 		 position: relative;
 
 }
@@ -18,13 +17,17 @@ form{font-size:5vw;background-color:silver;padding:3%;color:black;font-family:'L
 	overflow: hidden;
 	text-align: center;
 	border-radius: 3px;
-	background-color:rgba(105,105,105,0.5);
+	background-color:rgba(105,105,105,0.8);
 }
 #topT{
 	font-family: 'Great Vibes';
-	font-size: 6vw;
+	font-size: 4vw;
 	font-style: italic;
 	position: relative;
+}
+h1{
+	padding:3%;
+	font-family: 'Great Vibes';
 }
 #comp{
 height: 90px;
@@ -47,7 +50,7 @@ p{
 div {
 	margin-top:3%;
 	text-align: center;
-	font-size:5vw;
+	font-size:3vw;
 	background-color: dimgray;
 	color:white;
 }
@@ -56,7 +59,7 @@ div {
 	display:none;
 	padding:1%;
 	text-align: left;
-	font-size:4vw;
+	font-size:2vw;
 	border-style:outset;
 	border-width: 5px;
 }

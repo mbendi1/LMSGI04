@@ -1,30 +1,93 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<!DOCTYPE questions>
-
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE questions  SYSTEM "question.dtd">
 <questions>
-    <question id="profe_001">
-		<type>text</type>
-		<title>Adivina el número secreto... </title>
-		<answer>23</answer>
-    </question>
-    <question id="profe_002">
-		<type>select</type>
-		<title>HTML son las iniciales de...</title>
-		<option>Hyper Text Transfer Protocol</option>
-		<option>File Transfer Protocol</option>
-		<option>Hypertext markup language</option>
-		<answer>2</answer>
-    </question>
-     <question id="profe_003">
-		<type>checkbox</type>
-		<title>Marca las frutas</title>
-		<option>naranja</option>
-		<option>verde</option>
-		<option>fresa</option>
-		<option>violeta</option>
-		<answer>0</answer>
-		<answer>2</answer>
-    </question>
-	
+<question id="q_01">
+   <type>radio</type>
+    <title>1.- ¿Cómo se llama el gato que come lasaña? :</title>
+    <option>a) Garfield   	</option>
+    <option>b) Tom </option>
+    <option>c) Doraemon </option>
+    <option>d) Hello Kitty</option>
+  <answer>0</answer>
+</question>
+
+<question id="q_02">
+  <type>radio</type>
+  <title>2.-¿Cómo se llama el gato que persigue a Jerry? :</title>
+  <option>a) Heidi </option>
+  <option>b) Marco </option>
+  <option>c) Tom </option>
+  <option>d) Nadie persigue a Jerry </option>
+  <answer>2</answer>
+</question>
+
+<question id="q_03">
+  <type>text</type>
+  <title>3.-¿Tiene memoria Dory?</title>
+  <answer>no</answer>
+</question>
+
+<question id="q_04">
+  <type>text</type>
+  <title>4.-¿Quién tiene un bolsillo mágico?</title>
+  <answer>Doraemon</answer>
+</question>
+
+<question id="q_05">
+  <type>checkbox</type>
+  <title>5.-¿Existe vida antes del café?:</title>
+  <option>a) Sí </option>
+  <option>b) No </option>
+  <option>c) No lo sé porque soy un fracasado que toma té </option>
+  <answer>1</answer>
+</question>
+
+<question id="q_06">
+  <type>checkbox</type>
+  <title>6.-¿Cuál es la primera causa del divorcio?:</title>
+  <option>a) El cambio climático</option>
+  <option>b) El matrimonio</option>
+  <option>c) Las enfermedades</option>
+  <answer>1</answer>
+</question>
+
+<question id="q_07">
+  <type>select</type>
+  <title>7.-¿Cuál de estas es marca de ordenadores?</title>
+  <option>a) Acer </option>
+  <option>b) Donuts </option>
+  <option>c) Audi </option>
+  <option>d) Mc Donalds </option>
+  <answer>1</answer>
+</question>
+
+<question id="q_08">
+  <type>select</type>
+  <title>8.-¿Qué es lo que todo el mundo hace al despertar?</title>
+  <option>a) Llorar </option>
+  <option>b) Abrir los ojos </option>
+  <option>c) Dormirse otra vez</option>
+  <option>d) Apagar la alarma </option>
+  <answer>2</answer>
+</question>
+
+<question id="q_09">
+  <type>multiple</type>
+  <title>9.-¿Cuál de estas son marcas de coche? </title>
+  <option>a) Audi </option>
+  <option>b) Windows </option>
+  <option>c) Benz </option>
+  <option>d) Apple </option>
+  <answer>0</answer>
+</question>  	
+
+<question id="q_10">
+  <type>multiple</type>
+  <title>10.-¿Cuáles de estos nombres pertenecen a actores?</title>
+  <option>a) Mariano Rajoy</option>
+  <option>b) Penélope Cruz</option>
+  <option>c) Cristiano Ronaldo</option>
+  <option>d) Florentino Pérez</option>
+  <answer>1</answer>
+</question>  	
 </questions>
