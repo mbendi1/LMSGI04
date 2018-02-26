@@ -1,34 +1,20 @@
+
+input,select,label{font-size:5vw}
+input,select{width:80%}
+input[type=checkbox]{width:5%;zoom:1.5}
+form{background-color:aliceblue;padding:1%}
+
 html {
-  min-height: 100%;
   margin:0px;
+  min-height: 100%;
   position: relative;
 }
 
 body {margin:0px;
-	width:70%;
-	padding-left:15%;
-	padding-right:15%;
-	font-size:2vw;
-}
-
-input {font-size:2vw;
-	width:50%;
-}
-select {font-size:2vw;
-	width:50%;
-}
-
-label {font-size:2vw;
-}
-
-h3 {
-	font-size:3vw
-}
-
-input[type=checkbox]{width:5%;zoom:1.5}
-
-form {background-color:aliceblue;
-	padding:3%;
+	width:96%;
+	padding-left:2%;
+	padding-right:2%;
+	font-size:5vw;
 }
 
 
@@ -105,6 +91,10 @@ h1 {
     font-size:180%;
     font-weight:normal;
 }
+h3 {
+	font-size:7vw;
+}
+
 
 #footer {
 	

@@ -1,36 +1,7 @@
 html {
   min-height: 100%;
-  margin:0px;
   position: relative;
 }
-
-body {margin:0px;
-	width:70%;
-	padding-left:15%;
-	padding-right:15%;
-	font-size:2vw;
-}
-
-input {font-size:2vw;
-	width:50%;
-}
-select {font-size:2vw;
-	width:50%;
-}
-
-label {font-size:2vw;
-}
-
-h3 {
-	font-size:3vw
-}
-
-input[type=checkbox]{width:5%;zoom:1.5}
-
-form {background-color:aliceblue;
-	padding:3%;
-}
-
 
 contenido {
     font-family: "Segoe UI", sans-serif;
