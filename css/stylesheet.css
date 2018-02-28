@@ -58,7 +58,6 @@ body {
 	height: 80%;
 	margin: 0;
 	margin-bottom: 40px;
-	
 	padding: 1rem;	
 }
 
@@ -68,7 +67,7 @@ body {
 }
 
 iframe {
-    position: absolute;
+    	position: absolute;
 	top:0;
 	left: 0;
 	width: 100%;
@@ -116,7 +115,7 @@ h3 {
 #logo{
 	width: 50%;
 	height: 50%;
-		 position: relative;
+	position: relative;
 
 }
 #top{
@@ -127,7 +126,6 @@ h3 {
 	background-color:rgba(105,105,105,0.5);
 }
 #topT{
-	font-family: 'Great Vibes';
 	font-size: 4vw;
 	font-style: italic;
 	position: relative;
