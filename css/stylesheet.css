@@ -1,9 +1,13 @@
+input,select,label{font-size:5vw}
+input,select{width:80%}
+input[type=checkbox]{width:5%;zoom:1.5}
+form{background-color:aliceblue;padding:1%}
+
 html {
-	min-height: 100%;
-	border:0;
-	margin:0;
-	height:100%;
-	
+  margin:0px;
+  min-height: 100%;
+  position: relative;
+  height:100%;
 }
 
 body {
@@ -13,6 +17,11 @@ body {
 	margin:0;
 	height:100%;
 	min-height:100%;
+}
+
+#cabecera {
+  	background-color: #FC9804;
+	text-align: center;
 	
 }
 
@@ -60,47 +69,32 @@ iframe {
 	height: 100%;
 }
 
-input {width:50%;
-}
-select {width:50%;
-}
-
-input[type=checkbox]{width:5%;zoom:1.5}
-
 form {background-color:aliceblue;
 	padding:3%;
 }
 
-
-
-
-
 h1 {
-    color: black;
-    font-size: 3vw;
-    font-weight: normal;
+    color:#f90;
+    font-size:180%;
+    font-weight:normal;
 }
 h3 {
-	color: black;
-	font-size:3vw;
+	font-size:7vw;
 }
 
+
 #footer {
+	
   background-color: black;
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 90px;
+  height: 80px;
   color: white;
   text-align: center;
   
 }
 
-#cabecera {
-  	background-color: #FC9804;
-	text-align: center;
-	
-}
 
 #abrir {
     
@@ -110,27 +104,35 @@ h3 {
 }
 
 #logo{
-	width: 15%;
-	height: 15%;
-		 position: relative;
+	width: 30%;
+	height: 30%;
+	position: relative;
 
 }
-#top{
-	padding:3%;
-	overflow: hidden;
-	text-align: center;
-	border-radius: 3px;
-	background-color:rgba(105,105,105,0.5);
-}
-#topT{
-	font-family: 'Great Vibes';
-	font-size: 4vw;
-	font-style: italic;
-	position: relative;
-}
+
 #comp{
 height: 90px;
 margin-bottom: 1%;
 background: lightslategrey; 
 display:block; 
+}
+
+form:hover{
+	background-color: gainsboro;
+}
+
+#comp:hover {
+	background:darkslategrey;
+}
+p{
+	padding-top:2%;
+}
+
+#resultadosDiv {
+	display:none;
+	padding:1%;
+	text-align: left;
+	font-size:2vw;
+	border-style:outset;
+	border-width: 5px;
 }
