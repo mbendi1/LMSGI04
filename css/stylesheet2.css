@@ -79,6 +79,9 @@ body {
   text-align: center;
 }
 
+#examen {
+	text-align: left;
+}
 
 iframe {
     position: absolute;
