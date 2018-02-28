@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<title> Simulated Flight Academy </title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<meta name="description" content ="Simulated Flight Academy" />
 	<meta name="keywords" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,24 +12,25 @@
 </head>
 
 <body>
-<div id="sidebar" class="sidebar">
-    <a href="#" class="boton-cerrar" onclick="ocultar()">&times;</a>
-	<ul class="menu">
-		<li><a href="pages/academy.html" target="contenido"> Sobre la Academia </a></li>
+
+<div id="cabecera">
+  <p><a href="http://www.dcsskins.com" target="_blank"><img src="img/dcsskins.png" alt="DcsSkins"/></a></p>
+  <h1>Simulated Flight Academy</h1>
+  <h3>Academia de formación de vuelo virtual</h3>
+  
+	<li><a href="pages/academy.html" target="contenido"> Sobre la Academia </a></li>
 		<li><a href="pages/docs.html" target="contenido"> Documentación de apoyo </a></li>
 		<li><a href="test.html" target="_blank"> Prueba de nivel </a></li>
 		<li><a href="pages/contacto.html" target="contenido"> Contacta con nosotros </a></li>
-		<li><a href="pages/links.html" target="contenido"> Enlaces de interés </a></li>
-	</ul>
+	<li><a href="pages/links.html" target="contenido"> Enlaces de interés </a></li>
+
 </div>
-<div id="cabecera">
-  <p><a href="http://www.dcsskins.com" target="_blank"><img src="img/dcsskins.png" alt="DcsSkins" style="width="50%" height="50%""/></a></p>
-  <h1>Simulated Flight Academy</h1>
-  <h3>Academia de formación de vuelo virtual</h3>
-  <a id="abrir" class="abrir-cerrar" href="javascript:void(0)" onclick="mostrar()">Abrir menu</a><a id="cerrar" class="abrir-cerrar" href="#" onclick="ocultar()">Cerrar menu</a>
-</div>
-<div id="contenido">
-	<iframe src="pages/academy.html" width="100%" height="600" frameborder="0" scrolling="auto" name="contenido"></iframe>
+
+ 
+ 
+ </div>
+<div id="contenido" class="contenedor">
+	<iframe src="pages/academy.html" name="contenido"></iframe>
 </div>
 <div id="footer">
 	<address>
