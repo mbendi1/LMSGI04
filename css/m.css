@@ -1,6 +1,6 @@
 body,html{margin:0px}
-body{width:70%;padding-left:15%;padding-right:15%;background-image: url(../img/bckgrd.png);}
-body,input,select,label{font-size:5vw;font-family:'Lobster';}
+body{width:70%;padding-left:15%;padding-right:15%;}
+body,input,select,label{font-size:5vw;}
 h3{font-size:5vw}
 input,select{width:70%}
 input[type=checkbox]{width:5%;zoom:1.5}
@@ -21,7 +21,6 @@ form{font-size:5vw;background-color:silver;padding:3%;color:black;font-family:'L
 	background-color:rgba(105,105,105,0.5);
 }
 #topT{
-	font-family: 'Great Vibes';
 	font-size: 6vw;
 	font-style: italic;
 	position: relative;
