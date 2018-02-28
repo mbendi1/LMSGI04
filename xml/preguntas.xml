@@ -78,7 +78,9 @@
   <option>b) Alabeo </option>
   <option>c) Guiñada </option>
   <option>d) Movimiento </option>
-  <answer>0</answer>
+  <answer>1</answer>
+  <answer>2</answer>
+  <answer>3</answer>
 </question>  	
 
 <question id="q_10">
@@ -89,5 +91,7 @@
   <option>c) Tren de aterrizaje </option>
   <option>d) La hora de la cena </option>
   <answer>1</answer>
+  <answer>2</answer>
+  <answer>3</answer>
 </question>  	
 </questions>
