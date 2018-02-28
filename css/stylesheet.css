@@ -1,22 +1,24 @@
-input,select,label{font-size:5vw}
-input,select{width:80%}
+input,select,label {font-size:3vw}
+input,select {width:50%}
 input[type=checkbox]{width:5%;zoom:1.5}
-form{background-color:aliceblue;padding:1%}
+form {background-color:lightblue;padding:3%;}
 
 html {
-  margin:0px;
-  min-height: 100%;
-  position: relative;
-  height:100%;
+	min-height: 100%;
+	border:0;
+	margin:0;
+	height:100%;
+	
 }
 
 body {
 	padding-left:15%;
 	padding-right:15%;
-	border:0;
+	border:1;
 	margin:0;
 	height:100%;
 	min-height:100%;
+	
 }
 
 #cabecera {
@@ -24,24 +26,28 @@ body {
 	text-align: center;
 	
 }
-
-#cabecera ul{
+#menu {
+  	background-color: #black;
+	text-align: center;
+	
+}
+#menu ul{
    list-style-type: none;
    text-align: center;
 }
-#cabecera li{
+#menu li{
    display: inline;
    text-align: center;
    margin: 0 10px 0 0;
 }
-#cabecera li a {
+#menu li a {
    padding: 2px 7px 2px 7px;
    color: #666;
    background-color: #eeeeee;
    border: 1px solid #ccc;
    text-decoration: none;
 }
-#cabecera li a:hover{
+#menu li a:hover{
    background-color: #333333;
    color: #ffffff;
 }
@@ -69,32 +75,28 @@ iframe {
 	height: 100%;
 }
 
-form {background-color:aliceblue;
-	padding:3%;
-}
+
 
 h1 {
-    color:#f90;
-    font-size:180%;
-    font-weight:normal;
+    color: black;
+    font-size: 3vw;
+    font-weight: normal;
 }
 h3 {
-	font-size:7vw;
+	color: black;
+	font-size:3vw;
 }
 
-
 #footer {
-	
   background-color: black;
   position: relative;
   bottom: 0;
   width: 100%;
-  height: 80px;
+  height: 90px;
   color: white;
   text-align: center;
   
 }
-
 
 #abrir {
     
@@ -104,35 +106,27 @@ h3 {
 }
 
 #logo{
-	width: 30%;
-	height: 30%;
-	position: relative;
+	width: 50%;
+	height: 50%;
+		 position: relative;
 
 }
-
+#top{
+	padding:3%;
+	overflow: hidden;
+	text-align: center;
+	border-radius: 3px;
+	background-color:rgba(105,105,105,0.5);
+}
+#topT{
+	font-family: 'Great Vibes';
+	font-size: 4vw;
+	font-style: italic;
+	position: relative;
+}
 #comp{
 height: 90px;
 margin-bottom: 1%;
 background: lightslategrey; 
 display:block; 
-}
-
-form:hover{
-	background-color: gainsboro;
-}
-
-#comp:hover {
-	background:darkslategrey;
-}
-p{
-	padding-top:2%;
-}
-
-#resultadosDiv {
-	display:none;
-	padding:1%;
-	text-align: left;
-	font-size:2vw;
-	border-style:outset;
-	border-width: 5px;
 }

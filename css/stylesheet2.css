@@ -1,13 +1,14 @@
+
 input,select,label{font-size:5vw}
 input,select{width:80%}
 input[type=checkbox]{width:5%;zoom:1.5}
-form{background-color:aliceblue;padding:1%}
+form{background-color:lightblue;padding:1%}
 
 html {
-  margin:0px;
-  min-height: 100%;
-  position: relative;
-  height:100%;
+	min-height: 100%;
+	border:0;
+	margin:0;
+	height:100%;
 }
 
 body {
@@ -17,6 +18,7 @@ body {
 	margin:0;
 	height:100%;
 	min-height:100%;
+	
 }
 
 #cabecera {
@@ -25,41 +27,50 @@ body {
 	
 }
 
-#cabecera ul{
+#menu {
+  	text-align: center;
+	
+}
+#menu ul{
    list-style-type: none;
    text-align: center;
 }
-#cabecera li{
+#menu li{
    display: inline;
    text-align: center;
    margin: 0 10px 0 0;
 }
-#cabecera li a {
+#menu li a {
    padding: 2px 7px 2px 7px;
    color: #666;
    background-color: #eeeeee;
    border: 1px solid #ccc;
    text-decoration: none;
 }
-#cabecera li a:hover{
+#menu li a:hover{
    background-color: #333333;
    color: #ffffff;
-}
-
-#contenido {
-    font-family: "Segoe UI", sans-serif;
-    font-size:2vw;
-	height: 80%;
-	margin: 0;
-	margin-bottom: 40px;
-	
-	padding: 1rem;	
 }
 
 .contenedor {
 	position: relative;
 	overflow: hidden;
+	height: 80%;
 }
+
+#contenido {
+    font-family: "Segoe UI", sans-serif;
+    font-size:100%;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	margin-bottom: 40px;
+	padding: 1rem;	
+}
+
+
+
+
 
 iframe {
     position: absolute;
@@ -69,9 +80,6 @@ iframe {
 	height: 100%;
 }
 
-form {background-color:aliceblue;
-	padding:3%;
-}
 
 h1 {
     color:#f90;
@@ -93,53 +101,4 @@ h3 {
   color: white;
   text-align: center;
   
-}
-
-
-#abrir {
-    
-}
-#cerrar {
-    display:none;
-}
-
-#logo{
-	width: 30%;
-	height: 30%;
-	position: relative;
-
-}
-
-#comp{
-height: 90px;
-margin-bottom: 1%;
-background: lightslategrey; 
-display:block; 
-}
-
-form:hover{
-	background-color: gainsboro;
-}
-
-#comp:hover {
-	background:darkslategrey;
-}
-p{
-	padding-top:2%;
-}
-div {
-	margin-top:3%;
-	text-align: center;
-	font-size:3vw;
-	background-color: dimgray;
-	color:white;
-}
-
-#resultadosDiv {
-	display:none;
-	padding:1%;
-	text-align: left;
-	font-size:2vw;
-	border-style:outset;
-	border-width: 5px;
 }
