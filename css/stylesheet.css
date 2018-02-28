@@ -84,6 +84,10 @@ iframe {
   text-align: center;
 }
 
+#examen {
+	text-align: left;
+}
+
 h1 {
     color: black;
     font-size: 3vw;
